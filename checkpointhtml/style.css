@@ -1,0 +1,47 @@
+* {margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+} .container {max-width: 1000px;
+    margin: 0 auto;
+    border: 1px;
+} header {background-color: #ccc;
+    color: #000;
+    text-align: left;
+    padding: 20px;
+    border-bottom: purple 3px solid;
+} main {padding: 20px;
+} section {float: left;
+    width: 70%;
+    padding: 20px;
+} aside {float: left;
+    width: 100%;
+} footer {clear: both;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+} .banner {width: 780px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url('https://picsum.photos/780/300');
+    background-size: cover;
+}  aside summary {padding: 5px;
+    background-color: grey;
+    color: white;
+} footer p {
+    padding: 5px;
+} figure figcaption p {text-align: left;
+    color: #fff;
+    padding: 10px;
+} figure figcaption {
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    height: 50px;
+    background: blue;
+    color: #fff;
+    opacity: 75%;
+} figure{
+    position: relative;
+}
